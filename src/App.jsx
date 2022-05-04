@@ -1,9 +1,13 @@
+import Header from './Header'
+import Home from './Home'
+import './App.css'
 
 
 const App = () => {
   return (
     <div>
-      Hello world
+      <Header />
+      <Home />
     </div>
   )
 }
